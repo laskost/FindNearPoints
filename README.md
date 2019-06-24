@@ -1,5 +1,5 @@
 # FindNearPoints
-Find nearest point and nearby points efficiently in a 2D grid. 
+Find nearest point and nearby points from a given point efficiently in a 2D grid. 
 
 EfficientAlgorithms.java contains 2 methods.
 
