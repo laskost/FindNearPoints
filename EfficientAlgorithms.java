@@ -19,21 +19,6 @@ public class EfficientAlgorithms {
 		ArrayList<Point> nearbyPoints = new ArrayList<Point>();
 		//ArrayList<Cell> checkedPoints = new ArrayList<Cell>();
 		
-		for(int i5=0;i5<myGrid.rows;i5++)
-		{
-			for(int j5=0;j5<myGrid.columns;j5++)
-			{
-				int pointsInCell2= grid[i5][j5].pointInCell.size();
-				if(grid[i5][j5].pointInCell.get(0) != null)
-				{
-					for(int i2=0; i2<pointsInCell2; i2++)
-					{
-						Point point2 = grid[i5][j5].pointInCell.get(i2);
-						System.out.println("Point"+i5+""+j5+""+i2+"==>"+ point.distance(point, point2));
-					}
-				}
-			}
-		}System.out.println();
 		
 		int xRange = (int)Math.ceil(range/myGrid.splitX);
 		int yRange = (int)Math.ceil(range/myGrid.splitY);
