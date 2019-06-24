@@ -3,13 +3,7 @@ import java.util.ArrayList;
 
 public class EfficientAlgorithms {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 	
 	public ArrayList<Point> nearbyPoints(Point point,double range)
